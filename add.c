@@ -1,11 +1,5 @@
-#include <stdio.h>
-
-int main()
+//函数的定义
+int Add(int x, int y)
 {
-    int a = 10;
-    int b = 20;
-    int c = a + b;
-    printf("%d\n",c);
-
-    return 0;
+    return x + y;
 }
